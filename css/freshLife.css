@@ -1,5 +1,6 @@
 :root {
     --freshLife-bg-color: #FAF9FB;
+    --freshLife-font-color: #262626;
     --button-bg-color: #FF6033;
 
 }
@@ -51,6 +52,8 @@
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 10px;
+    font-weight: 900;
+    color: var(--freshLife-font-color);
 }
 
 .fresh-life_paragraph {
