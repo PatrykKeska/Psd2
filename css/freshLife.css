@@ -1,0 +1,78 @@
+:root {
+    --freshLife-bg-color: #FAF9FB;
+    --button-bg-color: #FF6033;
+
+}
+
+
+
+.fresh-life {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/img-11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--freshLife-bg-color);
+    position: relative;
+
+}
+
+.fresh-life_logo {
+    background-image: url("../assets/Cahee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 41px;
+    left: 10%;
+    width: 99px;
+    height: 84px;
+
+
+}
+
+
+.fresh-life_description {
+    width: 374px;
+    height: 180px;
+    position: absolute;
+    top: 326px;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.fresh-life_tittle {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fresh-life_paragraph {
+    font-weight: bold;
+    font-size: .5em;
+    text-align: left;
+    font-weight: 300;
+    width: 70%;
+
+}
+
+
+.fresh-life_button {
+    background-color: var(--button-bg-color);
+    color: white;
+    margin-top: 30px;
+    width: 200px;
+    min-height: 55px;
+    font-size: 20px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(44, 44, 44);
+    border: none;
+
+}
