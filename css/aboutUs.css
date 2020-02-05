@@ -1,8 +1,77 @@
 :root {
     --aboutUs-bg-color: #00C4C4;
-    --ourServices-bg-color: #70BFFF;
-    --gallery-bg-color: #FFE92F;
-    --subscribeUs-bg-color: #FFFFFF;
-    --blog-bg-color: #B07CF7;
 
+}
+
+
+
+.about-us {
+    background-color: var(--aboutUs-bg-color);
+    min-height: 700px;
+    min-width: 360px;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.about-us_description {
+    width: 25vw;
+    height: 225px;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+
+.about-us_tittle {
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+}
+
+.about-us_paragraph {
+    font-size: .5em;
+    line-height: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+
+
+.about-us_logo {
+    background-image: url("../assets/img-10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+@media(max-width : 1100px) {
+
+
+    .about-us_description {
+        top: 10%;
+        width: 80vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+
+    }
+
+    .about-us_logo {
+        top: 70%;
+        width: 60vw;
+        height: 60vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
