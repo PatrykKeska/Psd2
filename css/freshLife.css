@@ -19,6 +19,15 @@
 
 }
 
+@media(max-width:1400px) {
+    .fresh-life {
+        background-position: bottom -100px center
+    }
+
+    ;
+}
+
+
 .fresh-life_logo {
     background-image: url("../assets/Cahee.png");
     background-repeat: no-repeat;
