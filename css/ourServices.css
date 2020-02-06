@@ -1,0 +1,110 @@
+:root {
+    --our-services-bg-color: #70BFFF;
+}
+
+
+
+
+.our-services {
+    background-color: var(--our-services-bg-color);
+    position: relative;
+
+}
+
+
+.our-services_logo {
+    background-image: url("../assets/img copy.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 250px;
+    min-height: 250px;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+@media(max-width:800px) {
+    .our-services_logo {
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, 0);
+    }
+}
+
+.our-services_tittle {
+    font-size: 1.7em;
+    color: white;
+}
+
+.our-services_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.our-services_list {
+    list-style: none;
+
+    width: 400px;
+    height: 80px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    margin: 5px;
+
+
+}
+
+@media(max-width: 800px) {
+    .our-services_description {
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .our-services_list {
+        width: 300px;
+        height: 80px;
+    }
+}
+
+.our-services_list:nth-child(1) {
+    background-image: url("../assets/onlineshopping.png");
+    transform: scale(1.04);
+
+}
+
+.our-services_list:nth-child(2) {
+    background-image: url("../assets/qualityproduct.png");
+
+}
+
+.our-services_list:nth-child(3) {
+    background-image: url("../assets/domestic&internationaldelivery.png");
+
+}
+
+.our-services_list:nth-child(4) {
+    background-image: url("../assets/wellozganized.png");
+
+}
