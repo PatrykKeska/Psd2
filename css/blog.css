@@ -101,9 +101,13 @@ grid-column: auto;
     .blog-gallery_container {
    flex-direction: column;
    height: 95%;
+   margin-top: 50px;
         
         
      }  
+     .blog-description{ 
+         width: 80%;
+     }
 
      .gallery-item{ 
          width: 50%;
