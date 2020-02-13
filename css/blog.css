@@ -36,6 +36,7 @@
     font-size: .5em;
     color: white;
     font-weight: 300;
+    margin-bottom: 15px;
 grid-column: auto;
     grid-row-start: 2;
     grid-row-end: 3;
@@ -61,7 +62,7 @@ grid-column: auto;
      width: 25%;
      background-color:red;
      margin: 10px;
-     border: 2px solid black;
+     box-shadow: 0 0 6px 3px black;
  }
 
  .blog-button { 
