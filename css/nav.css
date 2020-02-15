@@ -31,3 +31,19 @@
     height: 100%;
     padding: 5px;
 }
+
+
+@media(max-width:800px) and (orientation:portrait){ 
+    .navigation-list{ 
+        width: 300px;
+        left: 7%;
+        
+    
+    }
+
+    .navigation-li {
+        margin: 2px;
+        list-style: none;
+    
+    }
+}
